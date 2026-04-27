@@ -5,9 +5,6 @@
 # Jupyter
 .ipynb_checkpoints/
 
-# Claude Code
-.claude/
-
 # Python
 __pycache__/
 *.pyc
