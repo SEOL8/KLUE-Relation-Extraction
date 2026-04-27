@@ -11,3 +11,8 @@
 # Python
 __pycache__/
 *.pyc
+
+# 대용량 바이너리
+*.npy
+*.pt
+*.bin
