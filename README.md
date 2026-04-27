@@ -26,14 +26,5 @@
 - Micro F1: no_relation(label 0) 제외한 29개 클래스 기준
 - AUPRC   : 전체 30개 클래스 포함, softmax 확률 기반
 
-## Model
-| 모델 | 방식 |
-|---|---|
-| M1 | 실제 재학습 |
-| M2 | 실제 재학습 | 
-| M3 | checkpoint 로드 | 
-| M4 | preds.npy 로드 |
-| M3+LS | checkpoint 로드 |
-
 ## Result (Micro F1, AUPRC)
 ![Micro F1, AUPRC](result.png)
