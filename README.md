@@ -35,4 +35,5 @@
 | M4 | preds.npy 로드 | EXAONE 전체 추론 -> 383분. 재학습 불가 |
 | M3+LS | checkpoint 로드 | M3 기반 3 epoch 추가 -> 2~3시간. 재학습 불가 |
 
-
+## Result (Micro F1, AUPRC)
+![Micro F1, AUPRC](result.png)
