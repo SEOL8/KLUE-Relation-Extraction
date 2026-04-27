@@ -1,0 +1,13 @@
+# Python 3.12.12
+# GPU: Tesla T4 x2 (CUDA 12.8)
+
+torch==2.10.0+cu128
+transformers==5.0.0
+datasets==4.8.3
+scikit-learn==1.6.1
+matplotlib==3.10.0
+seaborn==0.13.2
+numpy==2.0.2
+
+# torch 설치 시 CUDA 버전에 맞는 인덱스 사용
+# pip install torch==2.10.0+cu128 --extra-index-url https://download.pytorch.org/whl/cu128
