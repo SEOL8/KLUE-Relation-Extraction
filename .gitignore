@@ -11,3 +11,8 @@
 # Python
 __pycache__/
 *.pyc
+
+# Binaries
+*.npy
+*.pt
+*.bin
