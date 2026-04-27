@@ -3,6 +3,10 @@
 ## 개요
 - KLUE RE(Relation Extraction) 데이터셋을 활용해 4개 모델(M1~M4)을 설계·학습·비교하고,오류 분석 및 개선 실험까지 수행한 전 과정을 기록한 노트북
 
+## 실험 설계 (Model Pipeline)
+
+![Model Pipeline](Model.png)
+
 ## 노트북 구조
 | Section | 내용 |
 |---------|------|
@@ -30,3 +34,5 @@
 | M3 | checkpoint 로드 | roberta-large 5 epoch -> 4~6시간. 재학습 불가 |
 | M4 | preds.npy 로드 | EXAONE 전체 추론 -> 383분. 재학습 불가 |
 | M3+LS | checkpoint 로드 | M3 기반 3 epoch 추가 -> 2~3시간. 재학습 불가 |
+
+![Model Overview](Model.png)
